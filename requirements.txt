@@ -1,0 +1,9 @@
+transformers==4.12.3
+bcubed==1.5
+torch==1.10.2
+numpy==1.19.5
+tqdm==4.62.2
+pandas==0.25.3
+spacy==3.2.0
+pyclustering==0.10.1.2
+scikit_learn==1.6.1
