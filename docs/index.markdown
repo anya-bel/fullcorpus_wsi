@@ -16,7 +16,7 @@ To evaluate your system's output, we recommend using the **B-Cubed metric** avai
 ## Download the Dataset
 
 #### - [Download Full Dataset (ZIP)](/files/dataset.zip)
-#### - [Readme & Format Description](/files/README.txt)
+#### - [Readme & Format Description](/files/readme.txt)
 
 
 The package contains separate files for three parts of speech: adjectives, nouns and verbs, along with a full version containing all POS examples. Dataset statistics are given in the table below. For more details about the dataset composition, please refer to the [paper](https://aclanthology.org/2025.findings-acl.882.pdf).
