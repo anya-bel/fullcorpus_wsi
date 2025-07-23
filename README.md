@@ -1,6 +1,8 @@
-# SemCorWSI experiments
+# SemCor-WSI experiments
 
-This repository contains the code for experiments from the paper *"In the LLM era, Word Sense Induction remains unsolved"*.
+This repository contains the code for experiments from the ACL 2025 Findings paper [*"In the LLM era, Word Sense Induction remains unsolved"*](https://aclanthology.org/2025.findings-acl.882.pdf) by Anna Mosolova, Marie Candito and Carlos Ramisch.
+
+The dataset proposed in the paper is available at [SemCor-WSI website](https://anya-bel.github.io/fullcorpus_wsi/).
 
 ### Installation
 
@@ -41,8 +43,8 @@ The script generates an `out.pkl` file containing a dictionary with metrics and 
 
 The **datasets** folder contains:
 
-* *SemCorWSI* dataset
-* *Wiktionary* dataset filtered on dev part of SemCorWSI (temporary, as the full version is more than 100MB), 
+* *SemCorWSI* dataset,
+* *Wiktionary* dataset filtered on dev part of SemCorWSI, 
 * *WikiBooks* datasets with 10, 50, 100, 150 examples for dev part of SemCorWSI, 
 * *GPT-4o dataset* of generated examples for dev part of SemCorWSI, 
 * *Llama 3.1 8B 4bit generated examples dataset* for dev part of SemCorWSI.
